@@ -6,7 +6,7 @@
           <h4 class="text-center">Decide Gender By Name</h4>
           <hr />
           <div class="text-center">
-            <input type="text" v-model="name" class="form-control mt-3 text-black-50" />
+            <input type="text" v-model="name" placeholder="Name..." class="form-control mt-3 text-black-50" />
             <button class="btn btn-primary mt-3" @click="check">Start</button>
           </div>
           <div class="d-flex justify-content-center mt-3">
